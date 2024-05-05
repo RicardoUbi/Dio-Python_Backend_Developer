@@ -23,11 +23,24 @@ Para executar o projeto, utilizei a venv.
 
 Caso opte por usa-la, execute:
 
+## Windows
 ```bash
-pyenv virtualenv 3.11.4 workoutapi
-pyenv activate workoutapi
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
+## Linux
+```bash
+python3 -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+Verifique se o ambiente virtual está ativo:
+```bash
+(venv) myproject
+```
+## Executando banco de dados
 
 Para subir o banco de dados, caso não tenha o [docker-compose](https://docs.docker.com/compose/install/linux/) instalado, faça a instalação e logo em seguida, execute:
 
