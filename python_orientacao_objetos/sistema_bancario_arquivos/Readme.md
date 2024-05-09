@@ -1,5 +1,3 @@
-
-
 # Sistema Bancário com arquivo com Python
 
 Neste projeto, o objetivo era atualizar a implementação do sistema bancário, para armazenar as movimentações dos clientes em um arquivo .txt para fins de analise.

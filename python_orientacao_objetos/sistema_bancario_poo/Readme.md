@@ -1,5 +1,3 @@
-
-
 # Sistema Bancário em POO com Python
 
 Neste projeto, o objetivo era atualizar a implementação do sistema bancário, para armazenar os dados de clientes e contas bancárias em objetos ao invés de dicionários. O sistema foi implementado usando Programação Orientada a Objetos (POO).
